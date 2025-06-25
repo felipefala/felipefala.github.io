@@ -147,11 +147,13 @@
   </style>
 </head>
 <body>
-
+<button id="translate-btn" onclick="toggleLanguage()" style="float:right; margin: 20px; padding: 6px 12px; background: #0099cc; color: white; border: none; border-radius: 6px; cursor: pointer;">
+  🇧🇷 Português
+</button>
 <div class="container">
   <!-- Sidebar -->
 <div class="sidebar">
-  <img src="https://media.licdn.com/dms/image/v2/D4D03AQEdubTwIAFNng/profile-displayphoto-crop_800_800/B4DZeowgOEGUAM-/0/1750882977646?e=1756339200&v=beta&t=i7_GK5frfCsuq-hyIgC8FwxonfXqgOkZWlJucV-M3O8" alt="Foto de Felipe Falarara" class="profile-pic">
+  <img src="https://media.licdn.com/dms/image/v2/C4E03AQHdk7Cil9P9RA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1654716141594?e=1756339200&v=beta&t=KXnRvjGjhAoHEalERsDsnA8Ql2AAb5k2XbczUI8cUAw" alt="Foto de Felipe Falarara" class="profile-pic">
 
   <h1>Felipe Falarara</h1>
   <p class="role">BI Developer</p>
@@ -166,43 +168,43 @@
   </div>
 
     <div class="section languages">
-      <div class="section-title">Idiomas</div>
-      <p>🇧🇷 Português (Nativo)</p>
-      <p>🇪🇸 Espanhol (Proficiente)</p>
-      <p>🇺🇸 Inglês (Proficiente)</p>
+      <div class="section-title" id ="language">Languages</div>
+      <p>🇧🇷 Português (Native)</p>
+      <p>🇪🇸 Espanhol (Proficient)</p>
+      <p>🇺🇸 Inglês (Proficient)</p>
     </div>
 
     <div class="section skills">
-      <div class="section-title">Habilidades</div>
-      <p>SQL • Excel • Python</p>
-      <p>Gestão de Projetos</p>
-      <p>KPIs • Automação • Azure</p>
-      <p>Git / GitHub</p>
+      <div class="section-title" id="skills">Skills</div>
+      <p>• SQL • Excel • Python</p>
+      <p>• Gestão de Projetos • KPIs </p>
+      <p>• Automação • MS Azure</p>
+      <p>• Git/GitHub</p>
     </div>
   </div>
 
   <!-- Main Content -->
   <div class="main">
     <div class="section">
-      <div class="section-title">summary</div>
-      <p>Experienced and results-driven professional with 11 years of experience in operations analysis, data management, and network infrastructure. Highly adaptable to new environments and consistently eager to take on new challenges. Demonstrates strong problem-solving skills, a proactive approach to optimizing processes, and a solid background in telecommunications, logistics, and IT. Committed to achieving company goals through innovation, efficiency, and strategic thinking.</p>
+      <div class="section-title" id="summary-title">summary</div>
+      <p id="summary-text">Experienced and results-driven professional with 11 years of experience in operations analysis, data management, and network infrastructure. Highly adaptable to new environments and consistently eager to take on new challenges. Demonstrates strong problem-solving skills, a proactive approach to optimizing processes, and a solid background in telecommunications, logistics, and IT. Committed to achieving company goals through innovation, efficiency, and strategic thinking.</p>
     </div>
 
     <div class="section">
-      <div class="section-title">WORK EXPERIENCE</div>
+      <div class="section-title" id="work-title">WORK EXPERIENCE</div>
 
       <div class="job">
-        <h3>Telefonica (Vivo) – Sr. Analyst</h3>
-		<p class="desc">Mobile Network Operations Senior Analyst</p>
+        <h3 id="job1-title">Telefonica (Vivo) – Sr. Analyst</h3>
+		<p class="desc" id="job1-desc">Mobile Network Operations Senior Analyst</p>
 		<p class="date">2019 – Present</p>
         <ul>
-          <li>Data analysis and manipulation for report extraction.</li>
-          <li>Knowledge of SQL, Python and VBA programming languages and logic, MS Azure and the GIt/GitHub distributed versioning system.</li>
-          <li>Participating in development projects for proccess automation and reporting creation to assist team management.</li>
-		  <li>Team Management and KPI analysis, tracking, and productivity assessment.</li>
-		  <li>Project leader focused on operational and segmented improvements.
-		  <li>Monitoring network failures and troubleshooting issues in the national mobile access network. Analysis of key performance indicators and process optimization.</li>
-		  <li>Specialist in 2G/3G/4G/5G Huawei radiofrequency equipment with knowledge of Ericsson network equipment.</li>		  
+          <li id="job1-list1">Data analysis and manipulation for report extraction.</li>
+          <li id="job1-list2">Knowledge of SQL, Python and VBA programming languages and logic, MS Azure and the GIt/GitHub distributed versioning system.</li>
+          <li id="job1-list3">Participating in development projects for proccess automation and reporting creation to assist team management.</li>
+		  <li id="job1-list4">Team Management and KPI analysis, tracking, and productivity assessment.</li>
+		  <li id="job1-list5">Project leader focused on operational and segmented improvements.</li>
+		  <li id="job1-list6">Monitoring network failures and troubleshooting issues in the national mobile access network. Analysis of key performance indicators and process optimization.</li>
+		  <li id="job1-list7">Specialist in 2G/3G/4G/5G Huawei radiofrequency equipment with knowledge of Ericsson network equipment.</li>		  
         </ul>
       </div>
 
@@ -211,8 +213,8 @@
 		<p clss="desc">Mobile Network Operations Senior Analyst</p>
         <p class="date">2017 – 2019</p>
         <ul>
-          <li>Monitoring network failures and troubleshooting issues RAN.</li>
-		  <li>Performance team leader</li>
+          <li id ="job2-list1"> Monitoring network failures and troubleshooting issues RAN.</li>
+		  <li id ="job2-list2">Performance team leader</li>
         </ul>
       </div>
 
@@ -221,9 +223,9 @@
 		<p class="desc">Data Analyst and Developer</p>
         <p class="date">2012 – 2015</p>
         <ul>
-          <li>Data analysis, manipulation, and system development for process improvement in information management.</li>
-		  <li>Task control and scheduling.</li>
-		  <li>Development and management of quantitative/qualitative report.</li>
+          <li id ="job3-list1">Data analysis, manipulation, and system development for process improvement in information management.</li>
+		  <li id ="job3-list2">Task control and scheduling.</li>
+		  <li id ="job3-list3">Development and management of quantitative/qualitative report.</li>
         </ul>
       </div>
 
@@ -232,33 +234,32 @@
 		<p class="desc">Marketing Manager & Specialist</p>
 		<p class="date">2009 – 2012</p>
         <ul>
-          <li>Develop and maintain strong relationships with partners and vendors</li>
-		  <li>Management of goods distribution and logistics</li>
-		  <li>Inventory control.</li>
+          <li id ="job4-list1">Develop and maintain strong relationships with partners and vendors</li>
+		  <li id ="job4-list2">Management of goods distribution and logistics</li>
+		  <li id ="job4-list3">Inventory control.</li>
         </ul>
       </div>
     </div>
 
     <div class="section">
-      <div class="section-title">EDUCATION</div>
+      <div class="section-title" id ="education">Education</div>
       <ul>
         <li>Mackenzie – Big Data Analytics (2018–2019)</li>
-        <li>FMU – Engenharia Mecânica (2013–2017)</li>
+        <li id="education-list1">FMU – Engenharia Mecânica (2013–2017)</li>
         <li>ETEC Jorge Street – Redes (2009–2012)</li>
       </ul>
     </div>
 
     <div class="section">
-      <div class="section-title">CERTIFICATIONS AND COURSES</div>
+      <div class="section-title" id="certifications-title">Certifications and courses</div>
       <ul>
-        <li>Yellowbelt (Telefonica)</li>
-	<li>Scrum (Udemy)</li>
-	<li>Python & MySQL (Udemy)</li>
-        <li>Power BI (Alura)</li>
-	<li>Python & Machine Learning (Alura)</li>
-	<li>Python (Santander Open Academy)
-        <li>Digital Transformation – MIT/Santander Open Academy</li>
-        <li>Agile Project Management (Santander Open Academy)</li>
+        <li>Yellowbelt - Telefonica</li>
+		<li>Scrum - Udemy</li>
+		<li>Python e MySQL -Udemy</li>
+        <li>Power BI - Alura</li>
+		<li>Python e Machine Learning - Alura</li>
+        <li id="certifications-list6">Digital transformation – MIT/Santander OpenAcademy</li>
+        <li id="certifications-list7">Agile Project Management - Santander OpenAcademy</li>
       </ul>
     </div>
   </div>
@@ -267,6 +268,95 @@
 <script>
   lucide.createIcons();
 </script>
+<script>
+  const translations = {
+    en: {
+      'translate-btn': '🇧🇷 Português',
+	  'language': 'Language',
+	  'skills': 'Skills',
+      'summary-title': 'Summary',
+      'summary-text': 'Experienced and results-driven professional with 11 years of experience in operations analysis, data management, and network infrastructure. Highly adaptable to new environments and consistently eager to take on new challenges. Demonstrates strong problem-solving skills, a proactive approach to optimizing processes, and a solid background in telecommunications, logistics, and IT. Committed to achieving company goals through innovation, efficiency, and strategic thinking.',
+      'work-title': 'Work Experience',
+      'education-title': 'Education',
+      'certifications-title': 'Certifications and Courses',
+      'job1-title': 'Telefonica (Vivo) – Sr. Analyst',
+      'job1-desc': 'Mobile Network Operations Senior Analyst',
+	  'job1-list1': 'Data analysis and manipulation for report extraction.',
+	  'job1-list2': 'Knowledge of SQL, Python and VBA programming languages and logic, MS Azure and the GIt/GitHub distributed versioning system.',
+	  'job1-list3': 'Participating in development projects for proccess automation and reporting creation to assist team management.',
+	  'job1-list4': 'Team Management and KPI analysis, tracking, and productivity assessment.',
+	  'job1-list5': 'Project leader focused on operational and segmented improvements.',
+	  'job1-list6': 'Monitoring network failures and troubleshooting issues in the national mobile access network. Analysis of key performance indicators and process optimization.',
+	  'job1-list7': 'Specialist in 2G/3G/4G/5G Huawei radiofrequency equipment with knowledge of Ericsson network equipment.',
+      'job2-title': 'Icomon – Sr. Analyst',
+      'job2-desc': 'Mobile Network Operations Senior Analyst',
+	  'job2-list1': 'Monitoring network failures and troubleshooting issues RAN.',
+	  'job2-list2': 'Performance team leader',
+      'job3-title': 'TTI / Itaú – Data Analyst',
+      'job3-desc': 'Data Analyst and Developer',
+	  'job3-list1': 'Data analysis, manipulation, and system development for process improvement in information management.',
+	  'job3-list2': 'Task control and scheduling.',
+	  'job3-list3': 'Development and management of quantitative/qualitative report.',
+      'job4-title': 'Comercial Oswaldo Cruz – Marketing',
+      'job4-desc': 'Marketing Manager & Specialist.',
+	  'job4-list1': 'Develop and maintain strong relationships with partners and vendors.',
+	  'job4-list2': 'Management of goods distribution and logistics.',
+	  'job4-list3': 'Inventory control.',
+	  'education': 'Education.',
+	  'education-list1': 'Mechanical Engineering  (2013–2017)',
+	  'certifications-list6': 'Digital Transformation – MIT/Santander OpenAcademy',
+	  'certifications-list7': 'Agile Project Management - Santander OpenAcademy'
+    },
+    pt: {
+      'translate-btn': '🇬🇧 English',
+	  'language': 'Idioma',
+	  'skills': 'Habilidades',
+      'summary-title': 'Resumo',
+      'summary-text': 'Profissional experiente e orientado a resultados com 11 anos de experiência em análise de operações, gestão de dados e infraestrutura de rede. Altamente adaptável a novos ambientes e constantemente motivado a enfrentar novos desafios. Demonstra fortes habilidades de resolução de problemas, abordagem proativa para otimização de processos e sólida experiência em telecomunicações, logística e TI. Comprometido com o alcance das metas da empresa por meio de inovação, eficiência e pensamento estratégico.',
+      'work-title': 'Experiência Profissional',
+      'education-title': 'Formação Acadêmica',
+      'certifications-title': 'Certificações e Cursos',
+      'job1-title': 'Telefonica (Vivo) – Analista Sênior',
+      'job1-desc': 'Analista Sênior de Operações da Rede Móvel',
+	  'job1-list1': 'Análise e manipulação de dados para extração de relatórios.',
+	  'job1-list2': 'Conhecimento das linguagens e da lógica de programação SQL, Python e VBA, do MS Azure e do sistema de controle de versão distribuído GIt/GitHub.',
+	  'job1-list3': 'Participação em projetos de desenvolvimento para automação de processos e criação de relatórios para auxiliar o gerenciamento da equipe.',
+	  'job1-list4': 'Gerenciamento de equipes e análise de KPIs, rastreamento e avaliação de produtividade.',
+	  'job1-list5': 'Líder de projeto focado em melhorias operacionais e segmentadas.',
+	  'job1-list6': 'Monitoramento de falhas de rede e solução de problemas na rede nacional de acesso móvel. Análise de indicadores-chave de desempenho e otimização de processos.',
+	  'job1-list7': 'Especialista em equipamentos de radiofrequência 2G/3G/4G/5G Huawei com conhecimento de equipamentos de rede Ericsson.',
+      'job2-title': 'Icomon – Analista Sênior',
+      'job2-desc': 'Analista Sênior de Operações da Rede Móvel',
+	  'job2-list1': 'Monitoramento de falhas de rede e solução de problemas de RAN.',
+	  'job2-list2':'Líder da equipe de desempenho',
+      'job3-title': 'TTI / Itaú – Analista de Dados',
+      'job3-desc': 'Analista de Dados e Desenvolvedor',
+	  'job3-list1': 'Análise de dados, manipulação e desenvolvimento de sistemas para aprimoramento de processos no gerenciamento de informações.',
+	  'job3-list2': 'Controle e programação de tarefas.',
+	  'job3-list3': 'Desenvolvimento e gerenciamento de relatórios quantitativos/qualitativos.',
+      'job4-title': 'Comercial Oswaldo Cruz – Marketing',
+      'job4-desc': 'Gerente e Especialista em Marketing',
+	  'job4-list1': 'Desenvolver e manter relacionamentos sólidos com parceiros e fornecedores.',
+	  'job4-list2': 'Gerenciamento de distribuição de mercadorias e logística.',
+	  'job4-list3': 'Controle de inventário.',
+	  'education': 'Educação.',
+	  'education-list1': 'Engenharia mecânica (2013–2017)',
+	  'certifications-list6': 'Transformação Digital – MIT/Santander OpenAcademy',
+	  'certifications-list7': 'Gestão Ágil de Projetos - Santander OpenAcademy'
+    }
+  };
 
+  let currentLang = 'en';
+
+  function toggleLanguage() {
+    currentLang = currentLang === 'en' ? 'pt' : 'en';
+    const langData = translations[currentLang];
+    for (const id in langData) {
+      const el = document.getElementById(id);
+      if (el) el.innerText = langData[id];
+    }
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
