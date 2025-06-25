@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Felipe Falarara – BI Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    :root {
+      --primary: #1e2a38;
+      --secondary: #5d6d7e;
+      --accent: #0099cc;
+      --bg: #f4f7fa;
+      --white: #ffffff;
+	  --description: #4F4F4F;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: var(--white);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      background: var(--primary);
+      color: var(--white);
+      padding: 40px 30px;
+    }
+
+	.profile-pic {
+	  width: 120px;
+	  height: 120px;
+	  object-fit: cover;
+	  border-radius: 50%;
+	  border: 3px solid var(--accent);
+	  margin-bottom: 20px;
+	}
+    .main {
+      padding: 40px 50px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .role {
+      font-size: 16px;
+      color: var(--accent);
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .contact-info p,
+    .languages p,
+    .skills p {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .icon {
+      width: 16px;
+      height: 16px;
+      color: var(--accent);
+    }
+
+    .job {
+      margin-bottom: 25px;
+    }
+
+    .job h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .job .date {
+      font-size: 13px;
+      font-style: italic;
+      color: var(--secondary);
+	  float: right;
+	  margin: 0;
+    }
+    .job .desc {
+      font-size: 14px;
+      color: var(--description);
+	  display: inline-block;
+    }
+	/* Garante que a lista comece abaixo da data flutuante */
+	.job ul {
+	  clear: both;
+	  margin-top: 10px;
+	}
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Sidebar -->
+<div class="sidebar">
+  <img src="https://media.licdn.com/dms/image/v2/C4E03AQHdk7Cil9P9RA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1654716141594?e=1756339200&v=beta&t=KXnRvjGjhAoHEalERsDsnA8Ql2AAb5k2XbczUI8cUAw" alt="Foto de Felipe Falarara" class="profile-pic">
+
+  <h1>Felipe Falarara</h1>
+  <p class="role">BI Developer</p>
+
+  <div class="section contact-info">
+    <div class="section-title">Contato</div>
+    <p><i class="icon" data-lucide="phone"></i> +55 11 97264-3845</p>
+    <p><i class="icon" data-lucide="phone"></i> +34 618 673 296</p>
+    <p><i class="icon" data-lucide="mail"></i> fgampires@outlook.com</p>
+    <p><i class="icon" data-lucide="map-pin"></i> São Paulo / Madrid</p>
+    <p><i class="icon" data-lucide="linkedin"></i> <a href="https://www.linkedin.com/in/felipefalarara/" style="color: var(--accent);">LinkedIn</a></p>
+  </div>
+
+    <div class="section languages">
+      <div class="section-title">Idiomas</div>
+      <p>🇧🇷 Português (Nativo)</p>
+      <p>🇪🇸 Espanhol (Proficiente)</p>
+      <p>🇺🇸 Inglês (Proficiente)</p>
+    </div>
+
+    <div class="section skills">
+      <div class="section-title">Habilidades</div>
+      <p>SQL • Excel • Python</p>
+      <p>Gestão de Projetos</p>
+      <p>KPIs • Automação • Azure</p>
+      <p>Git / GitHub</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div class="section">
+      <div class="section-title">summary</div>
+      <p>Experienced and results-driven professional with 11 years of experience in operations analysis, data management, and network infrastructure. Highly adaptable to new environments and consistently eager to take on new challenges. Demonstrates strong problem-solving skills, a proactive approach to optimizing processes, and a solid background in telecommunications, logistics, and IT. Committed to achieving company goals through innovation, efficiency, and strategic thinking.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">WORK EXPERIENCE</div>
+
+      <div class="job">
+        <h3>Telefonica (Vivo) – Sr. Analyst</h3>
+		<p class="desc">Mobile Network Operations Senior Analyst</p>
+		<p class="date">2019 – Presente</p>
+        <ul>
+          <li>Data analysis and manipulation for report extraction.</li>
+          <li>Knowledge of SQL, Python and VBA programming languages and logic, MS Azure and the GIt/GitHub distributed versioning system.</li>
+          <li>Participating in development projects for proccess automation and reporting creation to assist team management.</li>
+		  <li>Team Management and KPI analysis, tracking, and productivity assessment.</li>
+		  <li>Project leader focused on operational and segmented improvements.
+		  <li>Monitoring network failures and troubleshooting issues in the national mobile access network. Analysis of key performance indicators and process optimization.</li>
+		  <li>Specialist in 2G/3G/4G/5G Huawei radiofrequency equipment with knowledge of Ericsson network equipment.</li>		  
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Icomon – Sr. Analyst</h3>
+		<p clss="desc">Mobile Network Operations Senior Analyst</p>
+        <p class="date">2017 – 2019</p>
+        <ul>
+          <li>Monitoring network failures and troubleshooting issues RAN.</li>
+		  <li>Performance team leader</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>TTI / Itaú – Data Analyst</h3>
+		<p class="desc">Data Analyst and Developer</p>
+        <p class="date">2012 – 2015</p>
+        <ul>
+          <li>Data analysis, manipulation, and system development for process improvement in information management.</li>
+		  <li>Task control and scheduling.</li>
+		  <li>Development and management of quantitative/qualitative report.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Comercial Oswaldo Cruz – Marketing</h3>
+		<p class="desc">Marketing Manager & Specialist</p>
+		<p class="date">2009 – 2012</p>
+        <ul>
+          <li>Develop and maintain strong relationships with partners and vendors</li>
+		  <li>Management of goods distribution and logistics</li>
+		  <li>Inventory control.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Educação</div>
+      <ul>
+        <li>Mackenzie – Big Data Analytics (2018–2019)</li>
+        <li>FMU – Engenharia Mecânica (2013–2017)</li>
+        <li>ETEC Jorge Street – Redes (2009–2012)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Certificações</div>
+      <ul>
+        <li>Yellowbelt (Telefonica), Scrum (Udemy), MySQL (Udemy)</li>
+        <li>Power BI (Alura), Python e ML (Alura/Santander)</li>
+        <li>Transformação Digital – MIT/Santander</li>
+        <li>Gestão Ágil de Projetos (Santander OA)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
